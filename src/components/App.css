@@ -1,0 +1,13 @@
+.min-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.cardWeapper {
+  border: 1px solid gray;
+  border-radius: 5px;
+  width: 500px;
+  padding: 10px;
+  line-height: 1.5;
+}
