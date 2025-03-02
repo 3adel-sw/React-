@@ -3,6 +3,7 @@ import React from "react";
 function App() {
   const styles = { color: "red", fontSize: "44px" };
   const myName = "Adel";
+  const names = ["Adel", "Dola", "M7"];
   return (
     <fragent>
       <h1>My React App</h1>
