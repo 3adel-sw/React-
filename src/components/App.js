@@ -1,16 +1,49 @@
 import React from "react";
+import Card from "./Card";
 import "./App.css";
 
 function App() {
+  const names = [
+    {
+      name: "Adel",
+      age: 26,
+      country: "Egypt",
+      job: "Software Developer Full Stack",
+      phone: "01064620610",
+    },
+    {
+      name: "Ahmed",
+      age: 25,
+      country: "Egypt",
+      job: "Software Developer Front end",
+      phone: "01064620610",
+    },
+    {
+      name: "Ali",
+      age: 24,
+      country: "Egypt",
+      job: "Software Developer Back end",
+      phone: "01064620610",
+    },
+    {
+      name: "Hassan",
+      age: 25,
+      country: "Egypt",
+      job: "Software Developer Back end",
+      phone: "01064620610",
+    },
+    {
+      name: "Ibrahim",
+      age: 18,
+      country: "Egypt",
+      job: "Software Developer Back end",
+      phone: "01064620610",
+    },
+  ];
+
   return (
     <div className="min-container">
-      <div className="cardWeapper">
-        <div>Name:Adel</div>
-        <div>Age: 26</div>
-        <div>Country: Egypt</div>
-        <div>Job: Software Developer</div>
-        <div>Phone :01064620610</div>
-      </div>
+      <Card namesList={names} />;
     </div>
   );
 }
