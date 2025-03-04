@@ -1,10 +1,14 @@
 import React from "react";
 
-const Card = ({ namesList }) => {
+const Card = ({ namesList, type }) => {
   return (
     <div>
       {namesList.map(({ name, age, country, job, phone }, idx) => (
-        <div className="cardWeapper" key={idx}>
+        <div
+          className="cardWeapper"
+          key={idx}
+          style={{ backgroundColor: type === "men" ? "green" : "pink" }}
+        >
           <div>Name:{name}</div>
           <div>Age: {age}</div>
           <div>Country: {country}</div>
