@@ -1,5 +1,5 @@
 import React from "react";
-import Card from "./Card";
+import Card from "../Card/Card";
 import "./App.css";
 
 function App() {
@@ -91,3 +91,4 @@ function App() {
 export default App;
 
 // finsh React JSX Rule Part 3 The Inline Style
+// 01119836478 Ahmed Alsapk ````
